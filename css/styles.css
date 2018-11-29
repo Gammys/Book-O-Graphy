@@ -1,0 +1,145 @@
+body {
+	background-image: url(love-it.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h3 {
+	color: wheat;
+}
+
+.side-nav {
+	background-color: bisque;
+	opacity: 0.8;
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	color: #301E16;
+	overflow-x: hidden;
+}
+
+.side-nav a {
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #301E16;
+	font-weight: bold;
+	display: block;
+}
+
+.side-nav p {
+	padding: 10px 10px 10px 30px;
+	font-weight: bold;
+	display: block;
+}
+
+.side-nav a:hover {
+	color: #797575;
+}
+
+.add label {
+	color: white;
+	margin: 5px 5px 5px 5px;
+	font-size: 15pt;
+}
+
+.add input {
+	color: bisque;
+	margin: 5px 5px 5px 5px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #d4ae81;
+	outline: none;
+	background: none;
+	font-size: 15pt;
+	left: 300px;
+}
+
+
+.add button {
+	color: white;
+	background: none;
+	border: 1px solid white;
+	border-radius: 15px;
+	font-size: 15pt;
+	margin: 5px 5px 5px 5px;
+}
+
+img {
+	border-radius: 15%;
+	width: 180px;
+}
+
+footer {
+	color: #301E16;
+	padding-top: 110px;
+	padding-left: 20px;
+	font-weight: bold;
+	pointer-events: none;
+	cursor: default;
+}
+
+.main {
+	padding-left: 250px;
+	overflow: hidden;
+}
+
+.main h1 {
+	letter-spacing: 3px;
+	text-shadow: 1px 1px wheat;
+	font-size: 40pt;
+}
+
+.main a {
+	text-decoration: none;
+	color: #C2C2C2;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	opacity: 0.6;
+}
+
+table, th, td {
+	border: 3px solid #c2c2c2;
+	width: -webkit-fill-available;
+	padding: 3px 3px 3px 3px;
+	color: white;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: large;
+}
+
+.error {
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+}
+.success {
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.main li {
+	list-style-type: disc;
+	color: whitesmoke;
+}
+
+.search button{
+	background: none;
+	border: none;
+	font-size: 20pt;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	color: white;
+}
+
+.search i {
+	color: white;
+	width: 15pt;
+	height: 15pt;
+}
